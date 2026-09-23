@@ -1,0 +1,12 @@
+application:
+base_url: "https://testautomationpractice.blogspot.com/"
+
+browser:
+    browser_type:"chromium"
+    headless: true
+    
+    
+credentials:
+    username: "Test"
+    password: "Test@123"
+        

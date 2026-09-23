@@ -1,0 +1,12 @@
+Check boxes should be handled by using check()
+is_checked()
+
+if checkbox.is_checked():
+    print("It is clicked")
+
+else:
+    checkbox.check()    
+
+Dropdowns:
+The dropdown tag name should be select.
+select      

@@ -1,0 +1,22 @@
+#Locators
+A locator which explains the element on the web page which we want to interact with.
+page.locator(".form-control")
+page.locator("#name")
+
+page.get_by_placeholder("Enter Name")
+
+Browser: chrome,edge, firefox
+Browser context-- isolated browser
+Page--current browser page
+
+page.locator
+id : #name
+class: ".form-control"
+
+xpath: 
+1. Absolute xpath: from the root we are selecting the element: 
+/html/body/div[3]/div[2]/div[2]/div[2]/div[2]/div[2]/div[2]/div[1]/div[4]/div/div/div[1]
+/div[1]/div/div/div/div[1]/div[1]/div[2]/section[3]/div[1]/input
+2. Relative xpath: 
+//tag[@attribute = "attribute value"]
+//input[@type='email']

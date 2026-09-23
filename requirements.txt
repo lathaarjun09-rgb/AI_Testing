@@ -1,0 +1,9 @@
+python
+playwright
+pytest-playwright
+pytest
+pytest-html
+allure
+pyYAML
+logging
+POM

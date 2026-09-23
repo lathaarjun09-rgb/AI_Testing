@@ -1,0 +1,22 @@
+Framework: The reusablity of the test cases or code once we are creating the functions that should
+be reused for later purpose.
+
+Demowebshop: 
+Testcase folder: test_login.py, test_register.py
+Page_object folder: Home_page.py, Login_page.py, Register_page.py
+Locators: 
+
+
+Browser : which kind of browser we are executing our code For ex: Chrome,edge or firefox
+Browser context: It wil will create isolated browser which handles cookies, cache etc. 
+It opens incognito mode browser
+page: Current page in the browser, tab
+
+
+Json: Test data we are using that created under the json file and used for later purpose
+Ex: Username
+Password
+
+
+Static : It is fixed value. time.sleep(5)
+Dynamic: wait_for_timeout
